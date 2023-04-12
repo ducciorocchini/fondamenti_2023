@@ -55,6 +55,3 @@ hist(etaplus)
 hist(etaplus, col="red", cex.lab=2, cex.axis=2)
 # https://www.rdocumentation.org/packages/graphics/versions/3.6.2/topics/hist
 
-
-# 41: falvio
-
