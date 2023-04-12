@@ -1,0 +1,41 @@
+# My first script in R - Lecture 1
+
+# Let's make use of R as a calculator
+2 + 3
+
+# Assign
+a <- 2 + 3
+a
+
+# Another assign
+b <- 7 + 3 
+
+# An empirical example
+# function()
+sherika <- c(10, 50, 70, 90, 100)
+alessio <- c(5, 10, 20, 40 ,80)
+
+# plot
+plot(alessio, sherika)
+
+# higher dimension
+plot(alessio, sherika, cex=5)
+
+# colour
+plot(alessio, sherika, cex=5, col="red")
+
+# point character
+plot(alessio, sherika, cex=5, col="red", pch=19)
+
+# labels
+plot(alessio, sherika, cex=5, col="red", pch=19, xlab="shark bite", ylab="genorrhea bacterium")
+
+plot(alessio, sherika, cex=5, col="red", pch=19, xlab="shark bite", ylab="genorrhea bacterium", cex.lab=2)
+
+plot(alessio, sherika, cex=5, col="red", pch=19, xlab="shark bite", ylab="genorrhea bacterium", cex.lab=2, cex.axis=2)
+
+# title
+plot(alessio, sherika, cex=5, col="red", pch=19, xlab="shark bite", ylab="genorrhea bacterium", cex.lab=2, cex.axis=2, main="Relationship between shark bite and gonorrhea")
+
+# correlation
+cor(alessio, sherika)
