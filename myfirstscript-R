@@ -39,3 +39,22 @@ plot(alessio, sherika, cex=5, col="red", pch=19, xlab="shark bite", ylab="genorr
 
 # correlation
 cor(alessio, sherika)
+
+# Ex. 2
+eta <- c(22, 24, 22, 24, 23, 22, 32, 23, 26, 23, 28, 22, 25)
+summary(eta)
+
+etaplus <- c(22, 24, 22, 24, 23, 22, 32, 23, 26, 23, 28, 22, 25, 41, 47)
+summary(etaplus)
+
+etaplusimp <- c(22, 24, 22, 24, 23, 22, 32, 23, 26, 23, 28, 22, 25, 41, 47, 4000)
+summary(etaplusimp)
+
+# histograms
+hist(etaplus)
+hist(etaplus, col="red", cex.lab=2, cex.axis=2)
+# https://www.rdocumentation.org/packages/graphics/versions/3.6.2/topics/hist
+
+
+# 41: falvio
+
